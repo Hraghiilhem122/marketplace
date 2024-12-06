@@ -1,0 +1,35 @@
+
+.h-custom{
+    background-color:  #eee;
+  }
+  .cart-item-image{
+    object-fit: contain;
+    width: 100px;
+    height: 150px;
+    display: flex;
+    border-radius: 8px;
+   
+  }
+  p {
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+  
+  h5{
+      font-family: 'Roboto Slab', serif;
+  } 
+  .total-price {
+    font-size: 18px; 
+  } 
+  .form-control{
+    background-color: white !important;
+
+    color: black !important;
+  }

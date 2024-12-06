@@ -1,0 +1,13 @@
+.bg-dark {
+    background-color: #437cb5 !important; 
+  }
+  
+  .text-reset {
+    color: #f8f9fa;
+  }
+  
+  .text-reset:hover {
+    color: #ced4da; 
+    text-decoration: underline;
+  }
+  

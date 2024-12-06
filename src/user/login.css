@@ -1,0 +1,75 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+   
+    align-items: center;
+    justify-content: center;
+
+    font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form inputs styling */
+.form-label {
+    color: #555;
+    font-weight: bold;
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #4a90e2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #357ABD;
+}
+
+/* Alert styling */
+.alert-danger {
+    color: #d9534f;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Input focus effect */
+.form-control:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
